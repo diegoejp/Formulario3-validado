@@ -18,14 +18,14 @@
             <div class="col-10">
                 <div class="card">
                     <div class="card-body p-0">
-                        <div class="border-bottom container-fluid">
+                        <div class="border-bottom container-fluid" style="background-color:#f7f7f7 ";>
                             <h1>Payment form Example</h1>
                         </div>
                         <div class="container p-2">
                             <!-- 1era fila -->
                             <div class="row justify-content-center m-2">
-                                <div class="col-12 bg-danger rounded">
-                                    <p class="text-secondary">Some fields are missing</p>
+                                <div class="col-12 rounded" style="background-color: rgba(247,215,218,255);">
+                                    <p class="m-0 m-2 font-weight-bold" style="color:rgba(114,37,46,255);">Some fields are missing</p>
                                 </div>
                             </div>
                             <!-- 2da fila -->
@@ -45,16 +45,16 @@
                             </div>
                             <!-- 3ra fila -->
                             <div class="row justify-content-center m-2">
-                                
+
                                 <div class="col-md-6 col-sm-12">
-                                    <label class= for="">First Name</label>
+                                    <label class=for="">First Name</label>
                                     <input class="form-control" type="text">
                                 </div>
                                 <div class="col-md-6 col-sm-12">
-                                    <label class= for="">Last Name</label>
+                                    <label class=for="">Last Name</label>
                                     <input class="form-control" type="text">
                                 </div>
-                                
+
                             </div>
                             <!-- 4ta fila -->
                             <div class="row justify-content-center m-2">
@@ -82,16 +82,22 @@
                             <div class="row justify-content-center m-2">
                                 <div class="col-md-6 col-sd-12">
                                     <label for="">We Accept:</label>
+                                    <div class="row">
 
-                                    <div class="col-md-6 col-sd-12 bg-secondary rounded d-flex justify-content-around align-items-center">
-                                        <input class="form-check" type="radio" name="pay">
-                                        <i class="fab fa-cc-visa text-white p-2"></i>
-                                        <input class="form-check" type="radio" name="pay">
-                                        <i class="fab fa-cc-mastercard text-white p-2"></i>
-                                        <input class="form-check" type="radio" name="pay">
-                                        <i class="fab fa-cc-diners-club text-white p-2"></i>
-                                        <input class="form-check" type="radio" name="pay">
-                                        <i class="fab fa-cc-amex text-white p-2 "></i>
+                                        <div
+                                            class="col-md-8 col-sd-10 rounded d-flex justify-content-around align-items-center" 
+                                            style="background-color: #6c747e;">
+
+                                            <input class="form-check" type="radio" name="pay">
+                                            <i class="fab fa-cc-visa text-white p-2"></i>
+                                            <input class="form-check" type="radio" name="pay">
+                                            <i class="fab fa-cc-mastercard text-white p-2"></i>
+                                            <input class="form-check" type="radio" name="pay">
+                                            <i class="fab fa-cc-diners-club text-white p-2"></i>
+                                            <input class="form-check" type="radio" name="pay">
+                                            <i class="fab fa-cc-amex text-white p-2 "></i>
+
+                                        </div>
                                     </div>
 
 
@@ -104,7 +110,7 @@
                             </div>
                         </div>
                         <!-- footer -->
-                        <div class="container-fluid border-top p-2 d-flex justify-content-end">
+                        <div class="container-fluid border-top p-2 d-flex justify-content-end" style="background-color:#f7f7f7 ;">
                             <button class="btn btn-secondary mr-2">Cancel</button>
                             <button class="btn btn-primary">Send</button>
                         </div>
