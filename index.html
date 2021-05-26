@@ -13,98 +13,104 @@
 </head>
 
 <body>
-    <div class="row justify-content-center mt-3">
-        <div class="col-10">
-            <div class="card">
-                <div class="card-body p-0">
-                    <div class="border-bottom container-fluid">
-                        <h1>Payment form Example</h1>
-                    </div>
-                    <div class="container p-2">
-                        <div class="row justify-content-center m-2">
-                            <div class="col-12 col-xl-12 col-lg-12 border bg-danger rounded">
-                                <p class="text-secondary">Some fields are missing</p>
-                            </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center mt-3">
+            <div class="col-10">
+                <div class="card">
+                    <div class="card-body p-0">
+                        <div class="border-bottom container-fluid">
+                            <h1>Payment form Example</h1>
                         </div>
-                        <!-- 2da fila -->
-                        <div class="row justify-content-center m-2">
-                            <div class="col-5">
-                                <label class="d-block" for="">Card #</label>
-                                <input class="form-control" type="text" placeholder="XXXXXXXXXXXXX">
-                            </div>
-                            <div class="col-4">
-                                <label class="d-block" for="">CVC #</label>
-                                <input class="form-control" type="text" placeholder="0000">
-                            </div>
-                            <div class="col-3">
-                                <label class="d-block" for="">Amount</label>
-                                <input class="form-control" type="number">
-                            </div>
-                        </div>
-                        <!-- 3ra fila -->
-                        <div class="row justify-content-center m-2">
-                            <div class="col-6">
-                                <label class="d-block" for="">First Name</label>
-                                <input class="form-control" type="text">
-                            </div>
-                            <div class="col-6">
-                                <label class="d-block" for="">Last Name</label>
-                                <input class="form-control" type="text">
-                            </div>
-                        </div>
-                        <!-- 4ta fila -->
-                        <div class="row justify-content-center m-2">
-                            <div class="col-6">
-                                <label class="d-block" for="">City</label>
-                                <input class="form-control" type="text">
-                            </div>
-                            <div class="col-3">
-                                <label class="d-block" for="">State</label>
-                                <select class="form-control" name="" id="">
-                                    <option value="">Selecciona una región</option>
-                                    <option value="">I</option>
-                                    <option value="">II</option>
-                                    <option value="">III</option>
-                                    <option value="">IV</option>
-                                    <option value="">V</option>
-                                </select>
-                            </div>
-                            <div class="col-3">
-                                <label class="d-block" for="">Postal Code</label>
-                                <input class="form-control" type="text">
-                            </div>
-                        </div>
-                        <!-- 5ta fila -->
-                        <div class="row justify-content-center m-2">
-                            <div class="col-6">
-                                    <label  for="">We Accept:</label>
-
-                                <!-- <div class="col-6">
-                                    <label  for="">We Accept:</label>
-                                </div> -->
-                                <div class="col-6 bg-secondary rounded d-flex justify-content-around align-items-center p-0" >
-                                    <input class="form-check" type="radio" name="pay">
-                                    <i class="fab fa-cc-visa text-white p-1"></i>
-                                    <input class="form-check"  type="radio" name="pay">
-                                    <i class="fab fa-cc-mastercard text-white p-1"></i>
-                                    <input class="form-check"  type="radio" name="pay">
-                                    <i class="fab fa-cc-diners-club text-white p-1"></i>
-                                    <input class="form-check" type="radio" name="pay">
-                                    <i class="fab fa-cc-amex text-white p-1 "></i>
+                        <div class="container p-2">
+                            <!-- 1era fila -->
+                            <div class="row justify-content-center m-2">
+                                <div class="col-12 bg-danger rounded">
+                                    <p class="text-secondary">Some fields are missing</p>
                                 </div>
-
-
                             </div>
-                            <div class="col-6">
-                                <label class="d-block" for="">Message</label>
-                                <textarea class="form-control" name="" id="" cols="30" rows="2"></textarea>
-                                <label class="d-block" for="">Add any notes here.</label>
+                            <!-- 2da fila -->
+                            <div class="row justify-content-center m-2">
+                                <div class="col-md-5 col-sd-12">
+                                    <label class="d-block" for="">Card #</label>
+                                    <input class="form-control" type="text" placeholder="XXXXXXXXXXXXX">
+                                </div>
+                                <div class="col-md-4 col-sd-12">
+                                    <label class="d-block" for="">CVC #</label>
+                                    <input class="form-control" type="text" placeholder="0000">
+                                </div>
+                                <div class="col-md-3 col-sd-12">
+                                    <label class="d-block" for="">Amount</label>
+                                    <input class="form-control" type="number">
+                                </div>
+                            </div>
+                            <!-- 3ra fila -->
+                            <div class="row justify-content-center m-2">
+                                
+                                <div class="col-md-6 col-sm-12">
+                                    <label class= for="">First Name</label>
+                                    <input class="form-control" type="text">
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <label class= for="">Last Name</label>
+                                    <input class="form-control" type="text">
+                                </div>
+                                
+                            </div>
+                            <!-- 4ta fila -->
+                            <div class="row justify-content-center m-2">
+                                <div class="col-md-6 col-sm-12">
+                                    <label class="d-block" for="">City</label>
+                                    <input class="form-control" type="text">
+                                </div>
+                                <div class="col-md-3 col-sd-12">
+                                    <label class="d-block" for="">State</label>
+                                    <select class="form-control" name="" id="">
+                                        <option value="">Selecciona una región</option>
+                                        <option value="">I</option>
+                                        <option value="">II</option>
+                                        <option value="">III</option>
+                                        <option value="">IV</option>
+                                        <option value="">V</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3 col-sd-12">
+                                    <label class="d-block" for="">Postal Code</label>
+                                    <input class="form-control" type="text">
+                                </div>
+                            </div>
+                            <!-- 5ta fila -->
+                            <div class="row justify-content-center m-2">
+                                <div class="col-md-6 col-sd-12">
+                                    <label for="">We Accept:</label>
+
+                                    <div class="col-md-6 col-sd-12 bg-secondary rounded d-flex justify-content-around align-items-center">
+                                        <input class="form-check" type="radio" name="pay">
+                                        <i class="fab fa-cc-visa text-white p-2"></i>
+                                        <input class="form-check" type="radio" name="pay">
+                                        <i class="fab fa-cc-mastercard text-white p-2"></i>
+                                        <input class="form-check" type="radio" name="pay">
+                                        <i class="fab fa-cc-diners-club text-white p-2"></i>
+                                        <input class="form-check" type="radio" name="pay">
+                                        <i class="fab fa-cc-amex text-white p-2 "></i>
+                                    </div>
+
+
+                                </div>
+                                <div class="col-md-6 col-sd12">
+                                    <label class="d-block" for="">Message</label>
+                                    <textarea class="form-control" name="" id="" cols="30" rows="2"></textarea>
+                                    <label class="d-block" for="">Add any notes here.</label>
+                                </div>
                             </div>
                         </div>
+                        <!-- footer -->
+                        <div class="container-fluid border-top p-2 d-flex justify-content-end">
+                            <button class="btn btn-secondary mr-2">Cancel</button>
+                            <button class="btn btn-primary">Send</button>
+                        </div>
+
+
                     </div>
-                    <div></div>
-
-
                 </div>
             </div>
         </div>
