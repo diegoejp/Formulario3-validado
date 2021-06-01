@@ -16,6 +16,7 @@
     <div class="container-fluid">
         <div class="row justify-content-center mt-3">
             <div class="col-10">
+                <form action="" id="formulario" >
                 <div class="card">
                     <div class="card-body p-0">
                         <div class="border-bottom container-fluid" style="background-color:#f7f7f7 ";>
@@ -31,12 +32,12 @@
                             <!-- 2da fila -->
                             <div class="row justify-content-center m-2">
                                 <div class="col-md-5 col-sd-12">
-                                    <label class="d-block" for="">Card #</label>
-                                    <input class="form-control" type="text" placeholder="XXXXXXXXXXXXX">
+                                    <label class="d-block"  for="">Card #</label>
+                                    <input class="form-control" id="card" type="text" placeholder="XXXXXXXXXXXXX">
                                 </div>
                                 <div class="col-md-4 col-sd-12">
                                     <label class="d-block" for="">CVC #</label>
-                                    <input class="form-control" type="text" placeholder="0000">
+                                    <input class="form-control" type="text" id="CVC" placeholder="0000">
                                 </div>
                                 <div class="col-md-3 col-sd-12">
                                     <label class="d-block" for="">Amount</label>
@@ -111,13 +112,14 @@
                         </div>
                         <!-- footer -->
                         <div class="container-fluid border-top p-2 d-flex justify-content-end" style="background-color:#f7f7f7 ;">
-                            <button class="btn btn-secondary mr-2">Cancel</button>
-                            <button class="btn btn-primary">Send</button>
+                            <button type="button" class="btn btn-secondary mr-2">Cancel</button>
+                            <button  type="submit" class="btn btn-primary">Send</button>
                         </div>
 
 
                     </div>
-                </div>
+                    </form>
+                </div> <!--arriba de este el form-->
             </div>
         </div>
     </div>
